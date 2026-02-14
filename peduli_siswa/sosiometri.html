@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sosiometri</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="mb-5">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm bg-dark text-light" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">PEDULI SISWA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link Active" aria-current="page" href="#">BERANDA</a>
+          </li>
+          <li class="nav-item">
+            <a href="jurnal.html" class="nav-link" href="#">JURNAL</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              LAYANAN
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="sosiometri.html" class="dropdown-item" href="#">Sosiometri</a></li>
+              <li><a href="bakat_minat.html" class="dropdown-item" href="#">Test Bakat Minat</a></li>
+              <li><a class="dropdown-item" href="#">Guru BK Ku</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Hubungi Psikolog</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-success" type="button" data-bs-toggle="modal"
+            data-bs-target="#modalLogin">Login</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Login Silahkan Pilih</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <a href="login_siswa.html">Siswa</a>
+            <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+            <!-- <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Masukkan Email"> -->
+          </div>
+
+          <div class="mb-3">
+            <a href="login_bk.html">Guru BK</a>
+            <!-- <label for="exampleFormControlInput1" class="form-label">Login Guru BK</label> -->
+            <!-- <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Masukkan password"> -->
+          </div>
+
+        </div>
+        <!-- <div class="modal-footer"> -->
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <main class="container mt-5 mb-5">
+    <div class="text-left">
+      <h3>SOSIOMETRI</h3>
+      <h4>Apa Itu Sosiometri</h4>
+      <p>Sosiometri adalah teknik atau metode dalam ilmu sosial dan pendidikan yang digunakan untuk mengukur,
+        menganalisis, dan menggambarkan hubungan sosial antar individu dalam suatu kelompok. Metode ini bertujuan untuk
+        mengetahui pola interaksi, tingkat penerimaan, penolakan, serta posisi sosial setiap anggota kelompok, seperti
+        siapa yang paling disukai, kurang diterima, atau terisolasi
+        <br>
+        <br>
+        Dalam konteks pendidikan, khususnya di sekolah, sosiometri membantu guru dan konselor memahami dinamika sosial
+        siswa di dalam kelas. Data sosiometri diperoleh melalui angket atau pertanyaan terstruktur yang meminta individu
+        memilih teman berdasarkan kriteria tertentu (misalnya teman belajar atau bermain). Hasilnya kemudian dianalisis
+        dan divisualisasikan dalam bentuk sosiogram, sehingga dapat digunakan sebagai dasar untuk perencanaan
+        pembelajaran, pembentukan kelompok, serta layanan bimbingan dan konseling guna menciptakan lingkungan belajar
+        yang lebih kondusif dan inklusif.
+        <br>
+        <br>
+        Secara sederhana, sosiometri digunakan untuk:
+      <ul>
+        <li>Mengetahui hubungan pertemanan antar siswa</li>
+        <li>Mengidentifikasi siswa yang populer, kurang diterima, atau terisolasi</li>
+        <li>Membantu Guru Bimbingan Konseling dan Walikelas menyusun kelompok belajar yang efektif</li>
+        <li>Mendeteksi dini masalah sosial atau emosional di kelas</li>
+      </ul>
+      <p>Hasilnya sering ditampilkan dalam bentuk sosiogram (peta hubungan sosial), sehingga guru atau konselor dapat
+        merancang intervensi pendidikan, bimbingan konseling, dan strategi pembelajaran yang lebih tepat
+      </p>
+      <br>
+      <br>
+      <h4>Silahkan Daftar</h4>
+    </div>
+
+    <botton class="btn btn-primary">LOGIN</botton>
+    <a href="login_siswa.html" class="btn btn-primary">Registrasi</a>
+    
+  </main>
+
+
+
+
+</body>
+
+</html>
